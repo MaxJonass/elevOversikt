@@ -1,0 +1,70 @@
+{
+    "elever": [
+        {
+            "navn": "bob albertson",
+            "klasse": "3STG",
+            "programområde": "REA",
+            "tilgjengelighet": true
+        },
+        {
+            "navn": "leona klev",
+            "klasse": "3STA",
+            "programområde": "SPR",
+            "tilgjengelighet": true
+        },
+        {
+            "navn": "aksel fosse",
+            "klasse": "3STB",
+            "programområde": "REA",
+            "tilgjengelighet": false
+        },
+        {
+            "navn": "tilde norvik",
+            "klasse": "3STC",
+            "programområde": "SPR",
+            "tilgjengelighet": true
+        },
+        {
+            "navn": "marius dalen",
+            "klasse": "3STA",
+            "programområde": "SPR",
+            "tilgjengelighet": true
+        },
+        {
+            "navn": "selma holt",
+            "klasse": "3STA",
+            "programområde": "REA",
+            "tilgjengelighet": true
+        },
+        {
+            "navn": "vetle gran",
+            "klasse": "3STA",
+            "programområde": "REA",
+            "tilgjengelighet": false
+        },
+        {
+            "navn": "linnea austad",
+            "klasse": "3STC",
+            "programområde": "SPR",
+            "tilgjengelighet": true
+        },
+        {
+            "navn": "tobias alvik",
+            "klasse": "3STC",
+            "programområde": "REA",
+            "tilgjengelighet": true
+        },
+        {
+            "navn": "alva bærge",
+            "klasse": "3STA",
+            "programområde": "SPR",
+            "tilgjengelighet": false
+        },
+        {
+            "navn": "emil krohn",
+            "klasse": "3STA",
+            "programområde": "REA",
+            "tilgjengelighet": true
+        }
+    ]
+}
