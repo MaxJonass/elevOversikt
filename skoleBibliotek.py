@@ -124,6 +124,8 @@ def vis_elever():
     textBoks.grid(row=1)
 
     for sjekk in data['elever']:
+        if sjekk['tilgjengelighet']==False:
+            continue
         textBoks.insert(i,f"Elev Navn: {sjekk['navn']}, Klasse: {sjekk['klasse']}, Programområde: {sjekk['programområde']} \n")
         i+=1
     textBoks['state']='disabled'
