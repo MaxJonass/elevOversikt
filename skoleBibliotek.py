@@ -56,14 +56,16 @@ def searchElev():
     
     
     for sjekk in data['elever']:
+         
         if value == sjekk['navn'] and sjekk['tilgjengelighet'] == False:
               return messagebox.showinfo("Info","Personen går ikke på denne skolen lengre.")
-
+        
         if value == sjekk['navn'] and sjekk['tilgjengelighet'] == True:
             return messagebox.showinfo("Info", f"Navn: {sjekk['navn']} Klasse: {sjekk['klasse']} Fagområde: {sjekk['programområde']}")
-                
-        if value != sjekk['navn']:
-             return messagebox.showinfo("Info", "Personen er ikke en regristrert elev") 
+    if value != sjekk['navn']:
+        return messagebox.showinfo("Info", "Personen er ikke en regristrert elev")    
+            
+
         
 
 
