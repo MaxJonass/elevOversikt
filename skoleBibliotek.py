@@ -66,7 +66,7 @@ def searchElev():
         return messagebox.showinfo("Info", "Personen er ikke en regristrert elev")    
             
 
-        
+
 
 
 def searchKlasse():
@@ -209,10 +209,5 @@ fjernElevKnapp.grid(row=11,column=1,pady=10)
 
 visListeOverAlle = tk.Button(root,text="Vis alle Elever på skolen", command=vis_elever)
 visListeOverAlle.grid(row=12,column=1,pady=30)
-
-'''
-GUI elementer Liste Vindu
-'''
-
 
 root.mainloop()
